@@ -5,7 +5,7 @@
  */
 package br.com.raul.testes;
 
-import br.com.raul.model.bean.Categoria;
+import br.com.raul.model.domain.Categoria;
 import br.com.raul.model.dao.CategoriaDAO;
 
 /**
@@ -19,8 +19,8 @@ public class CategoriaTeste {
         Categoria categoria = new Categoria();
         
         /*Incluindo nova Categoria*/
-//        categoria.setDescricao("Bebida");
-//        categoriaDAO.save(categoria);
+        categoria.setDescricao("Bebida");
+        categoriaDAO.save(categoria);
         
         /*Alterando uma Categoria*/
 //        categoria.setId(2);
@@ -40,7 +40,7 @@ public class CategoriaTeste {
 //        }
 
         /*Removendo uma Categoria pelo ID*/
-        categoriaDAO.remove(4);
+//        categoriaDAO.remove(4);
         
     }
     

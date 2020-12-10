@@ -6,7 +6,7 @@
 package br.com.raul.model.dao;
 
 import br.com.raul.connection.ConnectionFactory;
-import br.com.raul.model.bean.Produto;
+import br.com.raul.model.domain.Produto;
 import java.util.List;
 import javax.persistence.EntityManager;
 
